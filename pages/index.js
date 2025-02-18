@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import {Footer} from "../components/Footer"
 import Links from '../components/Links';
+import HeadLine from '../components/Headline';
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Index page</title>
       </Head>
-      <h1>index.jsだよ</h1>
+      <HeadLine title="index.js" page="index"/>
       <Links />
       <Footer />
     </div>
